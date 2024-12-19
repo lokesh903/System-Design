@@ -38,3 +38,36 @@ product would depend on
 ● Relationships between the modules and system features
 ● External Interface Requirements, Hardware and Software Interfaces
 ● Design and Implementation Constraints
+
+
+
+### Checkout Experience of a coustumer
+
+#### high level design
+
+it can have 2000/sec requests
+
+1. Functional requirements 
+    able to add the items 
+    able to checkout the items 
+2. Non functional requirements
+    it should be scalable
+    it should be more available
+3. Capacity Estimation 
+    it should have 2000/sec requests
+
+4. Define the diffrent components of the whole application and their communication
+
+    1. cart service 
+    2. checkout service
+    3. inventory service
+    4. authentication service
+    5. payment service
+    6. shipment service
+
+#### low level design
+
+the in-depth and detailed design of each component mentioned in the High-Level Design of the system.
+
+such as erd of components 
+
